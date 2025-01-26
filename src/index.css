@@ -1,15 +1,14 @@
-@import url('https://fonts.cdnfonts.com/css/general-sans');
+@import url("https://fonts.cdnfonts.com/css/general-sans");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 * {
   scroll-behavior: smooth;
-  
 }
 
 body {
   background: #010103;
-  font-family: 'General Sans', sans-serif;
+  font-family: "General Sans", sans-serif;
 }
 @layer utilities {
   .c-space {
